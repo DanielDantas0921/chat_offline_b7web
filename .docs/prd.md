@@ -74,10 +74,10 @@ As tarefas abaixo estão em ordem progressiva; cada etapa deve ser concluída an
   - [x] Criar a área de histórico e o espaço de composição inferior em uma estrutura que ocupe a altura da janela.
   - [x] Aplicar o fundo marrom claro e o container centralizado com largura máxima `2xl`.
 
-- [ ] **3. Criar os componentes do histórico**
-  - [ ] Implementar em `src/components` a lista de mensagens e o componente visual de uma mensagem.
-  - [ ] Renderizar o remetente correto, alinhar usuário à direita e robô à esquerda.
-  - [ ] Garantir rolagem do histórico e acompanhamento automático da mensagem mais recente.
+- [x] **3. Criar os componentes do histórico**
+  - [x] Implementar em `src/components` a lista de mensagens e o componente visual de uma mensagem.
+  - [x] Renderizar o remetente correto, alinhar usuário à direita e robô à esquerda.
+  - [x] Garantir rolagem do histórico e acompanhamento automático da mensagem mais recente.
 
 - [ ] **4. Criar o campo de composição**
   - [ ] Implementar em `src/components` o card branco com área de texto expansível, controle de remetente e botão de envio.
