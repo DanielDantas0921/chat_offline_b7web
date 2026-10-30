@@ -65,14 +65,14 @@ Entregar uma experiência simples e responsiva para compor mensagens, alternar e
 
 As tarefas abaixo estão em ordem progressiva; cada etapa deve ser concluída antes da seguinte.
 
-- [ ] **1. Definir os tipos de mensagem**
-  - [ ] Criar em `src/types` o tipo da mensagem usando `type`, com identificador, conteúdo e remetente (`user` ou `robot`).
-  - [ ] Não introduzir tipos para comportamentos que não fazem parte do escopo atual.
+- [x] **1. Definir os tipos de mensagem**
+  - [x] Criar em `src/types` o tipo da mensagem usando `type`, com identificador, conteúdo e remetente (`user` ou `robot`).
+  - [x] Não introduzir tipos para comportamentos que não fazem parte do escopo atual.
 
-- [ ] **2. Montar a estrutura principal da tela**
-  - [ ] Implementar o layout da página em `src/App.tsx`.
-  - [ ] Criar a área de histórico e o espaço de composição inferior em uma estrutura que ocupe a altura da janela.
-  - [ ] Aplicar o fundo marrom claro e o container centralizado com largura máxima `2xl`.
+- [x] **2. Montar a estrutura principal da tela**
+  - [x] Implementar o layout da página em `src/App.tsx`.
+  - [x] Criar a área de histórico e o espaço de composição inferior em uma estrutura que ocupe a altura da janela.
+  - [x] Aplicar o fundo marrom claro e o container centralizado com largura máxima `2xl`.
 
 - [ ] **3. Criar os componentes do histórico**
   - [ ] Implementar em `src/components` a lista de mensagens e o componente visual de uma mensagem.
