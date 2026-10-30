@@ -79,16 +79,16 @@ As tarefas abaixo estão em ordem progressiva; cada etapa deve ser concluída an
   - [x] Renderizar o remetente correto, alinhar usuário à direita e robô à esquerda.
   - [x] Garantir rolagem do histórico e acompanhamento automático da mensagem mais recente.
 
-- [ ] **4. Criar o campo de composição**
-  - [ ] Implementar em `src/components` o card branco com área de texto expansível, controle de remetente e botão de envio.
-  - [ ] Posicionar o controle à esquerda e o envio à direita.
-  - [ ] Refletir o modo robô com a borda roxa e implementar o estado desabilitado do botão.
+- [x] **4. Criar o campo de composição**
+  - [x] Implementar em `src/components` o card branco com área de texto expansível, controle de remetente e botão de envio.
+  - [x] Posicionar o controle à esquerda e o envio à direita.
+  - [x] Refletir o modo robô com a borda roxa e implementar o estado desabilitado do botão.
 
-- [ ] **5. Conectar o estado e os fluxos de envio**
-  - [ ] Manter o histórico e o remetente ativo em estado React, sem persistência.
-  - [ ] Implementar alternância de remetente, inclusão de mensagens, limpeza do campo e manutenção do remetente escolhido depois do envio.
-  - [ ] Impedir envios vazios ou compostos apenas por espaços.
-  - [ ] Implementar Enter para enviar e Shift+Enter para inserir quebra de linha.
+- [x] **5. Conectar o estado e os fluxos de envio**
+  - [x] Manter o histórico e o remetente ativo em estado React, sem persistência.
+  - [x] Implementar alternância de remetente, inclusão de mensagens, limpeza do campo e manutenção do remetente escolhido depois do envio.
+  - [x] Impedir envios vazios ou compostos apenas por espaços.
+  - [x] Implementar Enter para enviar e Shift+Enter para inserir quebra de linha.
 
 - [ ] **6. Ajustar responsividade e acessibilidade**
   - [ ] Validar o layout em viewport estreita e larga, incluindo mensagens extensas e histórico comprido.
